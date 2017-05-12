@@ -1,0 +1,1 @@
+export const serverUrl = 'http://localhost:8000/admin/';  //138.197.67.38

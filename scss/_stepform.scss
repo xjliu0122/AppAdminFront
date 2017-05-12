@@ -1,0 +1,85 @@
+ol.progtrckr {
+    list-style-type: none;
+    padding: 0;
+    border-top: 2px solid $brand-primary;
+    margin-bottom: 25px;
+    li {
+        display: inline-block;
+        text-align: center;         
+        line-height: 2.7rem;
+        cursor: pointer;
+        span {
+            padding: 0 1.5rem;
+        }
+         :after {
+            content: "\00a0\00a0";
+        }
+         :before { 
+            position: relative;
+            bottom: -2.2rem;
+            float: left;
+            left: 50%;
+        }
+    }
+    li.progtrckr-todo {
+        color: silver;
+        border-bottom: 4px solid silver;
+         :before {
+            content: "\039F";
+            color: silver;
+            background-color: white;
+            width: 1.2em;
+            line-height: 1.2em;
+        }
+         :hover:before {
+            color: $brand-primary;
+        }
+    }
+    li.progtrckr-doing {
+        color: black;
+        border-bottom: 4px solid #CCCCCC;
+         :before {
+            content: "\2022";
+            color: white;
+            background-color: #CCCCCC;
+            width: 1.2em;
+            line-height: 1.2em;
+            border-radius: 1.2em;
+        }
+         :hover:before {
+            color: $brand-primary;
+        }
+    }
+    li.progtrckr-done {
+        color: black;
+        border-bottom: 4px solid $brand-primary;
+         :before {
+            content: "\2022";
+            color: white;
+            background-color: $brand-primary;
+            width: 1.2em;
+            line-height: 1.2em;
+            border-radius: 1.2em;
+        }
+         :hover:before {
+            color: #333;
+        }
+    }
+    em {
+        display: none;
+        font-weight: 700;
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .progtrckr li span {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .progtrckr em {
+        display: inline;
+    }
+}

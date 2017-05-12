@@ -1,0 +1,283 @@
+/* common start */
+.app-footer {
+    z-index: 999
+}
+
+.breadcrumb {
+    line-height: 2;
+}
+
+.no-padding {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.no-margin {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.working-on-client{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    font-size: 1rem;
+    margin-right: 30px;
+    color: $brand-primary;
+
+}
+/* common end */
+
+
+/* Client tab begin*/
+
+.float-right-msg-refresh {
+    float: right !important;
+}
+
+.header-client {
+    margin-top: 1px !important;
+    margin-left: 0px !important;
+    padding-left: 0px;
+}
+
+.client-search-button {
+    height: 40px !important;
+    margin-top: 0px !important;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+}
+
+.client-filter-button {
+    margin-top: 0px !important;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+}
+
+
+/* Client tab end*/
+
+
+/* dashboard start*/
+
+.kpi-row>div>div.card {
+    height: 420px;
+}
+
+.tab-content-dash-msg {
+    height: 360px;
+}
+
+.scroll-bar-hidden {
+    overflow: hidden;
+}
+
+.scroll-bar-auto {
+    overflow: auto;
+    height: 100%
+}
+
+.tab-pane {
+    height: 100%
+}
+
+.message-pane {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    .first-msg {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+    }
+    .second-msg {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+    }
+}
+
+
+/* dashboard :end*/
+
+
+/* document modal start */
+
+.img-viewer {
+    height: 100%;
+    .img-viewer-content {
+        height: inherit;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    .img-viewer-toolbar {
+        margin: 0;
+        height: 30px;
+        position: absolute;
+        bottom: 0;
+        .ft-icon {
+            left: 0;
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            border: 1px solid $brand-primary;
+            border-radius: 50%;
+        }
+    }
+}
+
+@-moz-document url-prefix() {
+    .modal-document {
+        height: 500px !important;
+    }
+}
+
+.inline-doc {
+    margin: 24px 0px 20px 0px !important;
+}
+.form-control:disabled, .form-control[readonly] {
+background-color: #f9fafb;
+opacity: 1; }
+.modal-document {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 600px;
+    min-height: 600px;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    .modal-document-content {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        margin-bottom: 10px;
+    }
+    .split-container {
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: column;
+        flex-flow: column;
+    }
+    .modal-document-footer {
+        margin: 0;
+        border-top: 3px solid $brand-primary;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 40px;
+        flex: 0 1 40px;
+    }
+}
+
+.modal-ft-btn {
+    margin: 10px 10px 10px 0;
+    opacity: 1;
+}
+
+.konvajs-content {
+    canvas {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
+
+.margin-lr-15 {
+    margin: 0px 15px 0px 15px;
+}
+.margin-left-15 {
+    margin: 0px 0px 0px 15px;
+}
+
+.document-card-link {
+    text-decoration: none;
+     :hover {
+        cursor: pointer;
+        cursor: hand;
+        background-color: scale-color($white, $lightness: -5%) !important;
+    }
+     :active {
+        cursor: pointer;
+        cursor: hand;
+        background-color: scale-color($white, $lightness: -10%) !important;
+    }
+}
+
+.card-document {
+    margin-bottom: 0px;
+}
+
+.of-form-parent {
+    overflow: hidden;
+    height: 100%;
+    .of-form-child {
+        overflow: auto;
+        height: 100%;
+    }
+}
+
+
+/* document modal end*/
+
+
+/* steps form*/
+
+.step-inner {
+    margin: 0px 0px 0px 15px;
+    min-width: 550px;
+}
+
+.align-right {
+    text-align: right !important;
+}
+
+.shadow {
+    box-shadow: 10px 10px 5px #e4e5e6;
+}
+
+.width-100 {
+    width: 100% !important
+}
+
+.react-datepicker__input-container {
+    display: block !important
+}
+
+.table {
+    thead th {
+        text-align: center
+    }
+    .table {
+        background-color: none;
+    }
+}
+
+ :focus {
+    outline: 0;
+    /* or */
+    outline: none;
+}
+
+
+/* end*/
+
+// setting tab
+.apply-template-label {
+    margin: 0px 10px 0px 10px;    
+    vertical-align: bottom;
+    padding-right:15px;
+    padding-left:15px;
+}
+
+.margin-top-2 {
+    margin-top: 2px;
+}
+
+.no-pagenation-table{
+
+    margin-bottom: 50px
+}
