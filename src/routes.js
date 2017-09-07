@@ -9,11 +9,12 @@ import Reporting from './views/Reporting/Reporting.jsx';
 import ChartOfAccounts from './views/ChartOfAccounts/ChartOfAccounts.jsx';
 import Incomes from './views/Incomes/Incomes.jsx';
 import Expenses from './views/Expenses/Expenses.jsx';
-import Files from './views/Files/Filedsdss.jsx';
+import Files from './views/Files/Fisdss.jsx';
 import GlobalSettings from './views/GlobalSettings/GlobalSettings.jsx';
 import ClientSettings from './views/ClientSettings/ClientSettings.jsx';
 import GlobalSetting1s from './views/GlobalSettings/GlobalSettings.jsx';
-import ClientSetting2s from './views/ClientSettings/ClientSettings.jsx';
+import ClientSetting5s from './views/ClientSettings/ClientSettings.jsx';
+import ClieewewwentSetting5s from './views/ClientSettings/222.jsx';
 
 export default(
 
@@ -26,6 +27,7 @@ export default(
         name="Pending Documents"
         component={PendingDocuments}/>
       <Route path="clients" name="Clients" component={Clients}/>
+    <Route path="setu2p" name="Setup" component={GlobalSettings}/>      
       <Route path="setup" name="Setup" component={GlobalSettings}/>
       <Route path="/client" name="Client">
         <IndexRoute component={Clients}/>
