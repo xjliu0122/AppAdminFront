@@ -6,11 +6,11 @@ import logger from 'redux-logger'
 import promise from 'redux-promise-middleware'
 
 import rootReducer from '../reducers/RootReducer';
-
-const defaultState = {};
+dsdsdsds
+const defaultState = {};dsdsdsd
 
 const store = createStore(rootReducer, defaultState, applyMiddleware(logger(),thunk,promise()));
 
 export const history = syncHistoryWithStore(hashHistory, store);
 
-export default store;
+export default store;dsdsds

@@ -15,7 +15,7 @@ import ClientSettings from './views/ClientSettings/ClientSettings.jsx';
 
 export default(
 
- 
+ rererer
     <Route path="/" name="Home" component={Full}>
       <IndexRoute component={Dashboard}/>
       <Route path="dashboard" name="Dashboard" component={Dashboard}/>
