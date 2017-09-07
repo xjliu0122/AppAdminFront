@@ -10,7 +10,7 @@ export const CurrencyOptions = [
         value: 'EUR',
         label: 'EUR - Euro'
     }, {
-        value: 'CAD',
+        value: 'CAD',dsdsdsd
         label: 'CAD - Canadian Dollar'
     }, {
         value: 'CNY',
