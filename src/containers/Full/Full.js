@@ -8,7 +8,7 @@ import Breadcrumbs from 'react-breadcrumbs'
 import PopupConfirm from '../../views/Common/PopupConfirm.jsx'
 
 class Full extends Component {
-
+dsdssd
   render() {   
     return (
       <div className="app">

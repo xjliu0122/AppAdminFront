@@ -6,25 +6,6 @@ export const CLIENT_FETCH_GLRECORDS_FULFILLED = "CLIENT_FETCH_GLRECORDS_FULFILLE
 export const CLIENT_SET_COA_RECORDS_WIP = "CLIENT_SET_COA_RECORDS_WIP"
 export const CLIENT_CLEAR_COA_RECORDS = "CLIENT_CLEAR_COA_RECORDS"
 
-export const fetchClientCOADataFulfilled = (accounts) => {
-    return {type: CLIENT_FETCH_COA_DATA_FULFILLED, data: accounts}
-}
-export const fetchGLRecordsForAccountFulfilled = (records) => {
-    return {type: CLIENT_FETCH_GLRECORDS_FULFILLED, data: records}
-}
-export const setCoaRecordsWipAction = (value) => {
-    return {type: CLIENT_SET_COA_RECORDS_WIP, data: value}
-}
-export const clearCurrentCoaRecordsAction = () => {
-    return {type: CLIENT_CLEAR_COA_RECORDS}
-}
-
-export const setCoaRecordsWip = (value, props) => {
-    props.dispatch(setCoaRecordsWipAction(value))
-}
-export const clearCurrentCoaRecords = (props) => {
-    props.dispatch(clearCurrentCoaRecordsAction())
-}
 export const handleFetchCOAData = (props) => {
     if (props.global.selectedClient.uid) {
         props.dispatch(GlobalActions.addLoadingCount());
