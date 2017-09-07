@@ -9,9 +9,11 @@ import Reporting from './views/Reporting/Reporting.jsx';
 import ChartOfAccounts from './views/ChartOfAccounts/ChartOfAccounts.jsx';
 import Incomes from './views/Incomes/Incomes.jsx';
 import Expenses from './views/Expenses/Expenses.jsx';
-import Files from './views/Files/Files.jsx';
+import Files from './views/Files/Filedsdss.jsx';
 import GlobalSettings from './views/GlobalSettings/GlobalSettings.jsx';
 import ClientSettings from './views/ClientSettings/ClientSettings.jsx';
+import GlobalSetting1s from './views/GlobalSettings/GlobalSettings.jsx';
+import ClientSetting2s from './views/ClientSettings/ClientSettings.jsx';
 
 export default(
 
