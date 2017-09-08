@@ -1,0 +1,22 @@
+
+ componentWillMount() {
+        if (this.props.activity.Id && this.props.activity.Id === this.props.params.Id) {
+            this.props.getNotes({
+                id: this.props.activity.Id
+            });
+        }
+    }
+    componentWillReceiveProps(nextProps) {
+        if (!_.isEqual(this.props.activity.Id, nextProps.activity.Id)) {
+         //   if (!nextProps.isRequesting || !this.props.isRequesting) {
+                if (nextProps.activity.Id) {
+                    this.props.getNotes({
+                        id: nextProps.activity.Id
+                    });
+                }
+           // }
+
+            this.setState({
+                createNote: false
+            });
+        }
